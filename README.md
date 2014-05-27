@@ -1,7 +1,8 @@
 ApplicatieCou11
 ===============
-hoi
+hoi lINDA!
 
-CHANIEK IS AWESOME 
+CHANIEK IS NIEUWSGIERIG
 
 Doei:D:D:D:D:D:D:D
+
