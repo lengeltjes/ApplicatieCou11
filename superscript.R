@@ -1,3 +1,7 @@
 system("Rscript inlezen.R")
 system("Rscript display.R")
 system("Rscript filter.R")
+system("meme /home/users/tndoo/Downloads/NC_output1.fa -oc /home/users/tndoo/MEME_NC1 -dna -mod zoops -minw 35 -maxw 45")
+system("meme /home/users/tndoo/Downloads/NC_output2.fa -oc /home/users/tndoo/MEME_NC1 -dna -mod zoops -minw 35 -maxw 45")
+system("meme /home/users/tndoo/Downloads/WC_output1.fa -oc /home/users/tndoo/MEME_NC1 -dna -mod zoops -minw 35 -maxw 45")
+system("meme /home/users/tndoo/Downloads/WC_output2.fa -oc /home/users/tndoo/MEME_NC1 -dna -mod zoops -minw 35 -maxw 45") 
