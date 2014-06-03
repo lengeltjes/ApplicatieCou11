@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-work_dir = "~/owex_pgx/meme/"
+work_dir = "~/ApplicatieCou11/meme/"
 input_files = os.listdir(work_dir)
 
 for f in input_files:
