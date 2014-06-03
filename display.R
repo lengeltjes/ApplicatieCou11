@@ -1,10 +1,10 @@
 ratio <- scan("ratio.txt")
 
-png(filename= "scatterplot_.png")
+png(filename= "scatterplot1.png")
 plot(ratio,main= "Scatterplot before filtering", ylab= "log2 ratio", xlab="tag")
 dev.off()
 
-png(filename= "boxplot_.png")
+png(filename= "boxplot1.png")
 boxplot(ratio, main= "Boxplot before filtering", ylab= "log2 ratio", xlab="tag")
 dev.off()
 
