@@ -1,5 +1,3 @@
-library("seqinr")
-
 conf_file <- read.table("conf.txt")
 file <- read.table(as.character(conf_file$V1[1]), header=TRUE)
 ratio <- file$WCFS1.glc.over.NC8.glc
