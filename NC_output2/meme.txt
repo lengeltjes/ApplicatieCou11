@@ -1,0 +1,837 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.1 (Release date: Fri Aug 23 16:49:42 2013 +1000)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= /home/users/tndoo/ApplicatieCou11/NC_output2.fa
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+nc8_0024                 1.0000    100  nc8_0065                 1.0000    100  
+nc8_0088                 1.0000    100  nc8_0096                 1.0000    100  
+nc8_0108                 1.0000    100  nc8_0111                 1.0000    100  
+nc8_0124                 1.0000    100  nc8_0135                 1.0000    100  
+nc8_0148                 1.0000    100  nc8_0164                 1.0000    100  
+nc8_0172                 1.0000    100  nc8_0183                 1.0000    100  
+nc8_0217                 1.0000    100  nc8_0221                 1.0000    100  
+nc8_0271                 1.0000    100  nc8_0278                 1.0000    100  
+nc8_0294                 1.0000    100  nc8_0313                 1.0000    100  
+nc8_0325                 1.0000    100  nc8_0418                 1.0000    100  
+nc8_0435                 1.0000    100  nc8_0448                 1.0000    100  
+nc8_0477                 1.0000    100  nc8_0480                 1.0000    100  
+nc8_0482                 1.0000    100  nc8_0499                 1.0000    100  
+nc8_0503                 1.0000    100  nc8_0570                 1.0000    100  
+nc8_0608                 1.0000    100  nc8_0610                 1.0000    100  
+nc8_0611                 1.0000    100  nc8_0617                 1.0000    100  
+nc8_0645                 1.0000    100  nc8_0671                 1.0000    100  
+nc8_0680                 1.0000    100  nc8_0683                 1.0000    100  
+nc8_0689                 1.0000    100  nc8_0700                 1.0000    100  
+nc8_0718                 1.0000    100  nc8_0730                 1.0000    100  
+nc8_0735                 1.0000    100  nc8_0741                 1.0000    100  
+nc8_0764                 1.0000    100  nc8_0767                 1.0000    100  
+nc8_0781                 1.0000    100  nc8_0806                 1.0000    100  
+nc8_0827                 1.0000    100  nc8_0842                 1.0000    100  
+nc8_0849                 1.0000    100  nc8_0887                 1.0000    100  
+nc8_0888                 1.0000    100  nc8_0889                 1.0000    100  
+nc8_0951                 1.0000    100  nc8_0969                 1.0000    100  
+nc8_0989                 1.0000    100  nc8_1021                 1.0000    100  
+nc8_1027                 1.0000    100  nc8_1167                 1.0000    100  
+nc8_1173                 1.0000    100  nc8_1231                 1.0000    100  
+nc8_1245                 1.0000    100  nc8_1257                 1.0000    100  
+nc8_1300                 1.0000    100  nc8_1316                 1.0000    100  
+nc8_1319                 1.0000    100  nc8_1334                 1.0000    100  
+nc8_1349                 1.0000    100  nc8_1410                 1.0000    100  
+nc8_1427                 1.0000    100  nc8_1459                 1.0000    100  
+nc8_1487                 1.0000    100  nc8_1502                 1.0000    100  
+nc8_1544                 1.0000    100  nc8_1572                 1.0000    100  
+nc8_1574                 1.0000    100  nc8_1642                 1.0000    100  
+nc8_1662                 1.0000    100  nc8_1687                 1.0000    100  
+nc8_1728                 1.0000    100  nc8_1732                 1.0000    100  
+nc8_1767                 1.0000    100  nc8_1777                 1.0000    100  
+nc8_1860                 1.0000    100  nc8_1874                 1.0000    100  
+nc8_1895                 1.0000    100  nc8_1917                 1.0000    100  
+nc8_1959                 1.0000    100  nc8_2003                 1.0000    100  
+nc8_2053                 1.0000    100  nc8_2056                 1.0000    100  
+nc8_2064                 1.0000    100  nc8_2146                 1.0000    100  
+nc8_2149                 1.0000    100  nc8_2151                 1.0000    100  
+nc8_2171                 1.0000    100  nc8_2199                 1.0000    100  
+nc8_2207                 1.0000    100  nc8_2241                 1.0000    100  
+nc8_2251                 1.0000    100  nc8_2252                 1.0000    100  
+nc8_2281                 1.0000    100  nc8_2299                 1.0000    100  
+nc8_2301                 1.0000    100  nc8_2305                 1.0000    100  
+nc8_2354                 1.0000    100  nc8_2358                 1.0000    100  
+nc8_2366                 1.0000    100  nc8_2378                 1.0000    100  
+nc8_2393                 1.0000    100  nc8_2397                 1.0000    100  
+nc8_2412                 1.0000    100  nc8_2429                 1.0000    100  
+nc8_2477                 1.0000    100  nc8_2491                 1.0000    100  
+nc8_2498                 1.0000    100  nc8_2505                 1.0000    100  
+nc8_2517                 1.0000    100  nc8_2528                 1.0000    100  
+nc8_2549                 1.0000    100  nc8_2562                 1.0000    100  
+nc8_2575                 1.0000    100  nc8_2600                 1.0000    100  
+nc8_2606                 1.0000    100  nc8_2623                 1.0000    100  
+nc8_2636                 1.0000    100  nc8_2677                 1.0000    100  
+nc8_2706                 1.0000    100  nc8_2735                 1.0000    100  
+nc8_2737                 1.0000    100  nc8_2751                 1.0000    100  
+nc8_2755                 1.0000    100  nc8_2770                 1.0000    100  
+nc8_2782                 1.0000    100  nc8_2789                 1.0000    100  
+nc8_2825                 1.0000    100  nc8_2834                 1.0000    100  
+nc8_2837                 1.0000    100  nc8_2839                 1.0000    100  
+nc8_2880                 1.0000    100  nc8_2884                 1.0000    100  
+nc8_2891                 1.0000    100  nc8_2918                 1.0000    100  
+nc8_3027                 1.0000    100  nc8_3112                 1.0000    100  
+nc8_3118                 1.0000    100  nc8_3128                 1.0000    100  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /home/users/tndoo/ApplicatieCou11/NC_output2.fa -oc /home/users/tndoo/ApplicatieCou11/NC_output2 -dna -mod zoops -minw 35 -maxw 45 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           35    maxw=           45    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=      146    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           14600    N=             146
+strands: +
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.332 C 0.150 G 0.205 T 0.313 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.332 C 0.150 G 0.205 T 0.313 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   35   sites = 129   llr = 904   E-value = 5.8e-046
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  11:33433322333444322111:a387:465452
+pos.-specific     C  111321112332222111222131:112:111122
+probability       G  12521112122222221114263::111:222212
+matrix            T  763334543333332234525139:611a322224
+
+         bits    2.7                                    
+                 2.5                                    
+                 2.2                                    
+                 1.9                                    
+Relative         1.6                             *      
+Entropy          1.4                         *   *      
+(10.1 bits)      1.1                        **   *      
+                 0.8                        **   *      
+                 0.5 * *                  * ** ***      
+                 0.3 ***               *********** **   
+                 0.0 -----------------------------------
+
+Multilevel           TTGAAATTATTATTAAATTGTGGTATAATAAAAAT
+consensus              TCTTAATCCTAATGTAATC T  A   T GTTA
+sequence                TC   CAACCGGT   A  C         G  
+                               G  C                     
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                           Site              
+-------------             ----- ---------            -----------------------------------
+nc8_2918                     29  3.95e-08 CAGGGCTTTT TTGCTATTACAACGGGCCTGCGCTATACTAACGAC AATTAAATTA
+nc8_1574                     36  1.19e-07 GAGCTTCTTT TTTGCATTCTAGCTAGATTGGGGTATGATAAATAC TGTAATTAGA
+nc8_1410                     27  1.19e-07 CCGCTCCGGT TTCGAATTTTCAGACGATTCCGGTATAATAAACCG TAACTGATGA
+nc8_0689                     31  5.84e-07 CGCTCCGGGT TTGCGTCCCCGGGGCGCTTTTGTTACACTTAGGCC AAATTAGATT
+nc8_2397                     34  8.44e-07 CGATTGGTGG TTTTCAAGGGCCCCACCGTCCGCTATAATTGGATT AGCATTTCAT
+nc8_2301                     24  1.44e-06 TCGGCTACAT TTGTATTCGGTTTTCATCTGTGCTAGAATAAGTCT CATTCAAATA
+nc8_2146                     25  1.44e-06 CTCATAAACA TAGGTTCCCAGACGCACCTTTGCTATAATGAAAAT TGCTTATTAT
+nc8_2241                     30  1.71e-06 CGCGTTTGGG TTGGTTTTCGTTTGGGCTTCTGCTACACTATTAAC TATTAATTTT
+nc8_2393                     34  2.40e-06 TTAATTTAAT TCTCATATTGACTGAAAATGTGCTAAAATATTAAT ATTGTGTGCA
+nc8_2207                     26  2.40e-06 AAAATTGCTT TTGCAAACCTTCGCCGAATCCACTAGAATGAGAAG CAATAAGTCT
+nc8_1231                     28  6.25e-06 TAAAAACTGT TTGACGTTAGCGCCTAAAATCTCTAAAATGAACCC ATTGGTCTTT
+nc8_0888                     35  6.25e-06 ACCATGCCCA TATCTGTTCCACCTGACTTGCGTTATAATAGTTAT GTTAACCATA
+nc8_2149                     55  7.28e-06 GTGTCATTCG TTGCGAAGCCAAAGCGAAACTCCTATGATTACACT GAGGAGTTGA
+nc8_1732                     34  8.45e-06 GATAGAAAAA TTGTGCTTGTGCCACTAACTTGGTATAATTGTAGG GATTAGGATT
+nc8_0989                     22  8.45e-06 TTGAGATTGA TTGAAATTTCACTTATCACTTGCTATTATGAAAGG TGAATAAAGT
+nc8_2429                     38  1.13e-05 TTTTTAATAA TAGACATTACACCCCCTCAGCCTTAAAATTAACTT AGAAACAGGA
+nc8_1544                      1  1.13e-05          . TCGTAATTACACACTATATATTGTATAATACAAAT GTATTCATTG
+nc8_1349                     27  1.13e-05 ACATGAATGA TTGACATTCGATGATAACATTGCTAATATTAAGTC TGTATTAAAG
+nc8_1316                     19  1.13e-05 TTGGTTTGAG TGGATTAGAACGTACGTTTGCGTTAAAATTGAGAG TAATGAATAA
+nc8_2549                     23  1.31e-05 TAAAAAAGTA TTTCCATTTACTTTTATTTATTGTACAATGACAAC GGCTCAAAGA
+nc8_1917                     33  1.31e-05 TGAACAGATT TTGAAAATCAGTCTGAAAACTGTCATAATATAGAA CGTAAGACGT
+nc8_1173                      2  1.31e-05          T TGGCGTTCAACTTTTACAAGTGGTATCATGATAAT TGAAAATGTG
+nc8_0088                      9  1.51e-05   TAGAATAC TCGCATTCCGGTCATGCTACCGGTAAAATCATTAT CAGTATTCAA
+nc8_2053                     38  1.74e-05 TGCGCGGAAA CTGAAATTGCGTTAAATTTGAGCTATACTATTACT ACCACAAATA
+nc8_0111                     26  1.74e-05 GCATTAAAGT TTAAATTCACCGCCGCGACCGGTTATAATAAAAAG CAAATATGCC
+nc8_1767                     26  1.99e-05 TCATCAAGAA TTTGTGAATTCCTGAAAGTGTGTTAAAATACAATC TCGCATAGGG
+nc8_0183                      8  1.99e-05    AAAGTGT CTTCAAATTTGCGGAATGTGGTTTATAATTAAGGC GTGTAATCGG
+nc8_2056                     29  2.29e-05 AACAAAAACC CTTGTTTCACTAGTAATATTTGGTATAATTGCAAA GAATTCTTAT
+nc8_1662                     41  2.29e-05 TTGCCGGGTC TTGCCCAATCCGCCATACCGCAGTATGGTTAGGAC AAACGAGTTA
+nc8_2412                     34  2.61e-05 GAGCGATATT CTTATTAATTCAGTAAAATTTGTTATAATCGAGAC CGTTAAGCAG
+nc8_2299                     34  2.61e-05 TGATTAGTCC TTGACAGTTGTGGTGGAGTTCGTTACACTTAGTCC AATTAAACAA
+nc8_1459                     21  2.61e-05 TGTATATTTA TGGATTTGTCATTCAAGACGCGGTATATTAACAAT GTTAAATACT
+nc8_1334                     35  2.99e-05 GGAGTCTTTA TTTACAGCGTCATTGTTTTGTGGTGTACTTAAACT ACTTAAGGAG
+nc8_2839                     23  3.40e-05 TAATTAGGGC TTGCATGTAACTGAAAATGCTGGTAAAGTAAGGAA CAATTTATCA
+nc8_2252                     26  3.40e-05 ATTTTAAATG CTTACATTGCTGAAAATTAATGCTAAAATATAGTT ATTAACTAGC
+nc8_0951                     34  3.87e-05 TGTATTAATT TTCCATGGCCGCCCAAATAAGCGTACAATGTAACA GTAAGTACAA
+nc8_0477                     28  3.87e-05 ATTAGCAAGC TTGCGGGAACTACTAGAGCGTGCTACGATTATATT CGCTTTGTTT
+nc8_2834                     34  4.40e-05 AAATGGTTGA TTTTACTTCTGATTTAATACTAGTATACTTATAAA CGAACATCAG
+nc8_2491                     13  4.40e-05 TCGCTTGTTT ACTCGCTAATGACTATTATTTGCTATAATTAAATT AATTATATGA
+nc8_2305                     22  4.40e-05 ATAATTTTTG TTGAAACTGTGCAAAATTAGGCCTATAATGTCAAA ATGTTTGACA
+nc8_0482                     27  4.40e-05 ACCCTTTGGC GGGCGTCAATAAGCCCTTTGTGGTATACTTATCGC ACTTAATAAA
+nc8_0172                     14  4.40e-05 AACGCGAATT TTTGCGTGATGAGTGGTATGTAGTATAATAACTAG CTAGGAAGGT
+nc8_0135                     33  4.40e-05 TAAACGACGC TTGAAATTCATGGGGTTGACGGTTAAAATGAATAA ACATTGAATG
+nc8_0611                     29  4.99e-05 GTGTTTTTTG ATTGTTTTTTTCACCACATGTTGTATACTAAATTT ATCAAAAAAA
+nc8_1027                     25  5.65e-05 AATTTAACTC GTGCAATTTCCGAACGTGACCATTAAAATGAAGAT TATAGTTAAC
+nc8_0645                     25  5.65e-05 AATAAAGGTA TTGATTTATCCATATTAGAGCGGTAGGATTAGTCG TTAACGCAAA
+nc8_0024                     15  5.65e-05 AGCAGAATGT CTGCGTTGTTCAGACGAGGTGCTTATAATAAAGGT AAACACTAAA
+nc8_0887                     19  7.21e-05 TAATGATTCG TTCAGTCGATTAATAGACTATGGTATAATTTTGTT AATTTTAATA
+nc8_0096                      7  7.21e-05     GGACGG TTTTTTTGACGATAAAAACGGGGTGAAATAAATGG TCACGAAACG
+nc8_0065                     24  7.21e-05 GATCCTGACC ACGATTTGCCGCATCTTTCGTGTTAAAATTAGGTA TTAAATAGAT
+nc8_3128                     35  8.13e-05 AATTTACTGG TTTTCAAACAAATAAAAATATGCTATAGTAGTCAG GAAATGCGTT
+nc8_2606                     50  8.13e-05 TGTCTCAAAA TTCAAAATATGTCGATATTTGACTAAAATTAACAG AGGCAAATTA
+nc8_2505                     31  8.13e-05 ACTAACTTTC CTTGCTTTTGAAATTGAATCCGGCAAAATGAAATA GTTCCAGCAG
+nc8_2354                     23  8.13e-05 GTAGAATAGC TTTCATCAAATACTAAATTATGATAAACTAAGTTC ATTTACCATA
+nc8_2251                     29  8.13e-05 GCGATCTCGT TTGAATGTCCCTCTTCGACATGCTAATATTATTCT GTAATAGCAG
+nc8_0164                     20  8.13e-05 ACGAAAACGC TTGCGAAAGCGTTTGCACAGTTGCATAATAAATTA TGGTAAATGA
+nc8_2837                     45  9.14e-05 GTCAATTGAA TTGGCTTTACGGGTGATTACTTATAAAATGATATA GCGGCTATCA
+nc8_2770                     29  9.14e-05 ATGAATGTTT TTTTGAATGCAATCATAAGCGTGTATAATAAAAGT GTATATAAAG
+nc8_0278                     33  9.14e-05 CTTTTTATTA TTGCATATGCAATCATTTGATGATAAACTTAGCAC TATGCTAAGG
+nc8_2528                     18  1.03e-04 CAAAATAATT GTGAAAACAAATACAAAATCAGTTATAATAAGATT GATTAATGAA
+nc8_2378                     26  1.03e-04 TTGTTAATAC TGGCATCGCTTTCAGTTTGGCCTTACAATTAAGCA TACTTTAGCT
+nc8_1319                     14  1.03e-04 CATGAAACCA TTTTCACAAGTAACCTTTTTTGGTATAGTGGAAGA GTAGTTAATT
+nc8_0806                     22  1.03e-04 TTGAACATTG GTCTATCAAAGTTACGATTGTGTTAAACTGAAAAG AACGTAATCG
+nc8_0718                     29  1.03e-04 TGATAATAAT TCTGTATTCAGACGTAAACATGTTAAAATGTAATT ATTAAAATAA
+nc8_0700                     35  1.03e-04 GCTCGTTTTC TTGTCATTCGTTTTGCAATAGCCCATACTGCACAT AAGCAGGGAT
+nc8_0608                     31  1.15e-04 CCAAACTTGC TTTACCAACCTTTACCGTTTATGTATAATTAAAGT GATACATAAA
+nc8_1728                     25  1.29e-04 TCAGAATTGT TTTTGCCGCGTATCCGGGTATGGTAAAATATGATT AAATTAGTAA
+nc8_1167                     31  1.29e-04 ATCATAACAT TATGTGCTACCAAAGCACCGTGCTAAAATCAAATC AGTCAAAATG
+nc8_2281                     19  1.44e-04 CATTAGGACC TTCCTCTCAACGTGATTACCGTTTATAATAAACAA CAATCGTCCG
+nc8_2003                     34  1.44e-04 TTGGTCTGGC TTGAAATCAATTTCAAAAAAGACCATAATAAAGTT TCAGAATTCA
+nc8_0735                     26  1.44e-04 TAATATATTG TTGACTTTTATTAGATGTAACGGTAAAGTTAACTT GTTTCTAGGA
+nc8_2366                     33  1.61e-04 AGTGGTGGTA ATTGACTTTTACGTCAAATTTGGCACACTTAGTAT TGAAGTGTTT
+nc8_0124                     34  1.61e-04 ATTAAATTAG TAGCGTTATTGAATCAAACCTGCTACATTATAGTT AGCATTATTA
+nc8_2677                     11  1.80e-04 TGTTTTCGGC TGCCATAATCATTCGCTCGGCCATATAATAAAATT CTACTTATAT
+nc8_2064                     19  1.80e-04 TAAATATCTC TTGTTGAATTCCTGGTTGCCTGTTATACTCTATTT AGATATATAT
+nc8_0325                     26  1.80e-04 CGATTAAAGT TAGTTAAATAGGTTATCGCGTGCTATGATGAGAAT ATCTTATGAT
+nc8_0313                     38  1.80e-04 CCCACTGAAG TTGATTATATCAATGGTTATCTCTATGATTTAGGG GTGCAATACC
+nc8_0148                      6  1.80e-04      AGTTT TTTTATTTGTCACAAATATTTCATATAATCGGGTT AACTTAAATA
+nc8_2735                     20  2.00e-04 GTATAAACAG TTGCAAGTTGACTGTGAGTGGCTTACATTAAAAGT GCAGTTTATT
+nc8_2477                     34  2.22e-04 ACGAATGTGA TTGTTGTTAGGGTGGTTTTTCGATATAGTAGACCT ATGAATTGAG
+nc8_2199                     32  2.22e-04 AAGTTAATTA CAGTAATTACTTGTGAGTTATGGTATCCTAAAACG CTGTGGGAGG
+nc8_0480                     33  2.22e-04 GCCTTGAAGT TTGCACTCATCTCACTTCTGTTATAAGGTGAGAAT ATTACGAATA
+nc8_2623                     31  2.47e-04 CAATAAGGAG CGGTTGTCCGATAGAAAAACTGCTATACTACGAGG CGTAAATAAA
+nc8_0617                     31  2.47e-04 AAGCTAACTG TTCAGGACGTTTAAACAATGGCTTATAATAAGTAA TGATAACCAA
+nc8_0610                     28  2.47e-04 CCTATAACGG TTGTATAAACAGGCTAAGATTGCGATAATAGAACA AACACACCAA
+nc8_0271                     30  2.47e-04 CAATCAACAG CAGACAAACACGAACAGATGTTTTATAATAGGAAG CGACTAAATT
+nc8_3027                     43  2.74e-04 TCATCACCCG TTCAAAAGTATCAGTATATTCGGCATCATAATGAT GAGTTGGTCC
+nc8_0827                     28  2.74e-04 TGCATATTAA TTGTTCCAAAATTAAATTATGGTTATCATAAGCAT GTACTCAAAT
+nc8_0741                     30  2.74e-04 GGGAAAATAA CTTACAAACGCTAGTATCAGTGTTATTATCAATAA GCATGTTTAA
+nc8_3118                     33  3.03e-04 TCACCAATAC CAGACAAGCTGAGTTGATTGGACTATAATGATTGG AAGTTATAGC
+nc8_1021                     20  3.03e-04 ACGCACCTAG TGGGCAAGGTCGATGAACTAGCGTATATTATAGAC AGTAAATTTC
+nc8_1959                     30  3.70e-04 ATGACAAATT GGCGTCTGTGATTAGGACTATGCTACAATTAAAGC AATTAATTAA
+nc8_2782                     21  4.09e-04 CTTTCTTCAG TAGGAATGTCACGCTAAATCTGATAGAATCGGATT AACATTAAAC
+nc8_2825                     34  4.95e-04 AGCGTTTGCC GTTGATTTTATGAGGAAGTTCGTTATCATAAAGAA GATAAGCAGA
+nc8_0221                     24  4.95e-04 ACCCGGAAGT CATAATTTTGTGGGAAAACATGCTATGATAGAACG AAAATTAATT
+nc8_2498                      5  5.44e-04       GCAA TGGGCAAGTTAATGGAAATGAGCTACTATATATAG TATTGATTCA
+nc8_0294                     28  5.44e-04 TTTTCTTAGC TTGTTTATAACTGTACTATACTGTACTATTTAACG TAAGCGAAGT
+nc8_2737                     21  6.54e-04 AAAGTTGAGT TTTACTAATTACAAGCTTTATTTTATCATATTGAT AATCAAAGAA
+nc8_2706                     26  6.54e-04 TTCGTTGTGC TTACAAAACTGTTTTCATAAGCGTATAATGATTAG TGTATTTTAC
+nc8_1572                     31  6.54e-04 TCGCTTGTTT TTGTTGTAAATTTATGTTTTAGTTAAAGTAAGAAT TCTAACCCAG
+nc8_0730                     34  6.54e-04 TGTTATTTAA TATTGCTTGATTAATATTTCTGTTAGAATTAGTAC CAGAAGGGAA
+nc8_0680                     24  7.83e-04 AACAAGATAG TCGACAAATGTAAATTTTGGGGGTATATTAAGCGT CATAGGAATT
+nc8_2562                     31  8.55e-04 AACAATGCGA GCGCTTCCCTCCCTATGTTAGAATATACTAAGAAC CAATCAGGGG
+nc8_1687                     26  9.33e-04 AATTAGTTTT GGCACTGACACCGGCTCTTATGTTAAACTTAATCA ATCACAACGA
+nc8_0889                     42  9.33e-04 CTTAATAACT TGCATGCAATCACCTCAATTTGATATGGTTAACAT AACTATTATA
+nc8_0683                     26  9.33e-04 GTAAATTTTA CTTTGTAAAGTGTGTCAATGTTGTATACTATTTTT GTAAGCACTA
+nc8_2884                     27  1.02e-03 TTCCAAACTA ATGACGATACGCAAAATTCGTGAGAAAATATAAAC ATTCTGATGT
+nc8_1895                     46  1.02e-03 GGCGGTTACT GTTCTATGTTCTGGTCATTGTCTTATATTACAATG TTTTTACCTA
+nc8_1874                     39  1.02e-03 AGCGCGGATG ACAACCCGCTGCAAAAATTATGGTAAAATGAATGC AATACGATTG
+nc8_0849                     25  1.02e-03 ATCTTATTTG TTGACAAGCAACAATATTCAAGATAAAATGTTGCT TGTCAACAAA
+nc8_0781                     22  1.02e-03 CGCTTCCGCA ATCATTTCTTTAATAATCACTGCTAACCTAGAACT ATTAAGAAAT
+nc8_1257                     34  1.11e-03 CGGAAATCAC TATTATTAAGGCACAAAAAGCAGTAAACTGTTTCT AAAACCAATT
+nc8_0108                     26  1.11e-03 GGGACACGGG TGGTTTCAATGCACTGCGAGCCGTATTATTCGAAA AAAAAACTAA
+nc8_0503                     33  1.31e-03 GTGATTAATT ACCCACAGTTTCACAAATATTGGTATAGTAGAAGA GTAAGCGGGA
+nc8_0969                     23  1.42e-03 TTAAAAAAAT AGCAAAAATGAAAGCATTTGCGTTATAATACTTGT GAGTTAAGTA
+nc8_0671                     30  1.53e-03 GGTGTCAAAC AGTTTCACTTATTCATTTTTTGGTATAGTATGTAT TAGGAAGCAT
+nc8_2880                     54  1.80e-03 TTTAATTGTA CGTTCTAATCTTCACGACTTTTTCACAATTTGTAC GTAAAACGAC
+nc8_2600                     26  1.80e-03 GGAAAACTAA AGCGCTTTATTGCCTTCGTTCGGTAATCTTAAATT GGAATAGCTT
+nc8_2575                     38  1.80e-03 ATGCCATTCT TGTAAATAGTAATATTTACGTTTTACAATTTTATT CGTTAGGAGT
+nc8_1300                     48  1.80e-03 TGGCCGTGAA TCTCGTTCGCTAAATGGGGGTGCCATTATGAAAAA TTGCTTTGGA
+nc8_0842                     20  2.43e-03 CTGCATAATA GTTGACGTAAGCATAAGATTGATTATAATTTAAAT GGTAATAATT
+nc8_0764                     56  2.43e-03 TATGAAATAA TGGGTTAACTAATTAGAGATGGGTGAGATTGATAT GGCAAACCAA
+nc8_1427                     49  2.61e-03 CATTAAGCCG TTGCGATTTTCTATGTAAACTATTGTTATTGAAAA ACATAGGAGG
+nc8_1245                     21  2.61e-03 CAAGAAGTCT TGTTGTTACTGAAAGGTACCAATTATAATTGTTAT TTCGTAAAAC
+nc8_0767                     30  2.80e-03 ATGCTTCTTA CTGACAAGTTTATAATGTTGTGGTAGGTTAATTGC AAAGTGAACT
+nc8_3112                     31  3.01e-03 CTAACCTTGT TGTTTAAAACATGTAATAAATTACATGATTAAAAT GACATATTAG
+nc8_2517                     32  3.70e-03 CAATTCGATT TGATTTTAACTGGATAATGGGGGTAAAGTAACGAA TAGATAGAAA
+nc8_2171                     30  5.12e-03 GGTTTGCCCT TTTTTATTGGCTTTGAACTTGCCCGAGCTTAAGAA ATTTTTTGAG
+nc8_2151                     30  5.12e-03 GATAAATTAA TTTTTAGTATCATGTACTTGCCCCAGTATTGAGTA TTAGAATTAT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+nc8_2918                            4e-08  28_[+1]_37
+nc8_1574                          1.2e-07  35_[+1]_30
+nc8_1410                          1.2e-07  26_[+1]_39
+nc8_0689                          5.8e-07  30_[+1]_35
+nc8_2397                          8.4e-07  33_[+1]_32
+nc8_2301                          1.4e-06  23_[+1]_42
+nc8_2146                          1.4e-06  24_[+1]_41
+nc8_2241                          1.7e-06  29_[+1]_36
+nc8_2393                          2.4e-06  33_[+1]_32
+nc8_2207                          2.4e-06  25_[+1]_40
+nc8_1231                          6.2e-06  27_[+1]_38
+nc8_0888                          6.2e-06  34_[+1]_31
+nc8_2149                          7.3e-06  54_[+1]_11
+nc8_1732                          8.5e-06  33_[+1]_32
+nc8_0989                          8.5e-06  21_[+1]_44
+nc8_2429                          1.1e-05  37_[+1]_28
+nc8_1544                          1.1e-05  [+1]_65
+nc8_1349                          1.1e-05  26_[+1]_39
+nc8_1316                          1.1e-05  18_[+1]_47
+nc8_2549                          1.3e-05  22_[+1]_43
+nc8_1917                          1.3e-05  32_[+1]_33
+nc8_1173                          1.3e-05  1_[+1]_64
+nc8_0088                          1.5e-05  8_[+1]_57
+nc8_2053                          1.7e-05  37_[+1]_28
+nc8_0111                          1.7e-05  25_[+1]_40
+nc8_1767                            2e-05  25_[+1]_40
+nc8_0183                            2e-05  7_[+1]_58
+nc8_2056                          2.3e-05  28_[+1]_37
+nc8_1662                          2.3e-05  40_[+1]_25
+nc8_2412                          2.6e-05  33_[+1]_32
+nc8_2299                          2.6e-05  33_[+1]_32
+nc8_1459                          2.6e-05  20_[+1]_45
+nc8_1334                            3e-05  34_[+1]_31
+nc8_2839                          3.4e-05  22_[+1]_43
+nc8_2252                          3.4e-05  25_[+1]_40
+nc8_0951                          3.9e-05  33_[+1]_32
+nc8_0477                          3.9e-05  27_[+1]_38
+nc8_2834                          4.4e-05  33_[+1]_32
+nc8_2491                          4.4e-05  12_[+1]_53
+nc8_2305                          4.4e-05  21_[+1]_44
+nc8_0482                          4.4e-05  26_[+1]_39
+nc8_0172                          4.4e-05  13_[+1]_52
+nc8_0135                          4.4e-05  32_[+1]_33
+nc8_0611                            5e-05  28_[+1]_37
+nc8_1027                          5.7e-05  24_[+1]_41
+nc8_0645                          5.7e-05  24_[+1]_41
+nc8_0024                          5.7e-05  14_[+1]_51
+nc8_0887                          7.2e-05  18_[+1]_47
+nc8_0096                          7.2e-05  6_[+1]_59
+nc8_0065                          7.2e-05  23_[+1]_42
+nc8_3128                          8.1e-05  34_[+1]_31
+nc8_2606                          8.1e-05  49_[+1]_16
+nc8_2505                          8.1e-05  30_[+1]_35
+nc8_2354                          8.1e-05  22_[+1]_43
+nc8_2251                          8.1e-05  28_[+1]_37
+nc8_0164                          8.1e-05  19_[+1]_46
+nc8_2837                          9.1e-05  44_[+1]_21
+nc8_2770                          9.1e-05  28_[+1]_37
+nc8_0278                          9.1e-05  32_[+1]_33
+nc8_2528                           0.0001  17_[+1]_48
+nc8_2378                           0.0001  25_[+1]_40
+nc8_1319                           0.0001  13_[+1]_52
+nc8_0806                           0.0001  21_[+1]_44
+nc8_0718                           0.0001  28_[+1]_37
+nc8_0700                           0.0001  34_[+1]_31
+nc8_0608                          0.00012  30_[+1]_35
+nc8_1728                          0.00013  24_[+1]_41
+nc8_1167                          0.00013  30_[+1]_35
+nc8_2281                          0.00014  18_[+1]_47
+nc8_2003                          0.00014  33_[+1]_32
+nc8_0735                          0.00014  25_[+1]_40
+nc8_2366                          0.00016  32_[+1]_33
+nc8_0124                          0.00016  33_[+1]_32
+nc8_2677                          0.00018  10_[+1]_55
+nc8_2064                          0.00018  18_[+1]_47
+nc8_0325                          0.00018  25_[+1]_40
+nc8_0313                          0.00018  37_[+1]_28
+nc8_0148                          0.00018  5_[+1]_60
+nc8_2735                           0.0002  19_[+1]_46
+nc8_2477                          0.00022  33_[+1]_32
+nc8_2199                          0.00022  31_[+1]_34
+nc8_0480                          0.00022  32_[+1]_33
+nc8_2623                          0.00025  30_[+1]_35
+nc8_0617                          0.00025  30_[+1]_35
+nc8_0610                          0.00025  27_[+1]_38
+nc8_0271                          0.00025  29_[+1]_36
+nc8_3027                          0.00027  42_[+1]_23
+nc8_0827                          0.00027  27_[+1]_38
+nc8_0741                          0.00027  29_[+1]_36
+nc8_3118                           0.0003  32_[+1]_33
+nc8_1021                           0.0003  19_[+1]_46
+nc8_1959                          0.00037  29_[+1]_36
+nc8_2782                          0.00041  20_[+1]_45
+nc8_2825                           0.0005  33_[+1]_32
+nc8_0221                           0.0005  23_[+1]_42
+nc8_2498                          0.00054  4_[+1]_61
+nc8_0294                          0.00054  27_[+1]_38
+nc8_2737                          0.00065  20_[+1]_45
+nc8_2706                          0.00065  25_[+1]_40
+nc8_1572                          0.00065  30_[+1]_35
+nc8_0730                          0.00065  33_[+1]_32
+nc8_0680                          0.00078  23_[+1]_42
+nc8_2562                          0.00086  30_[+1]_35
+nc8_1687                          0.00093  25_[+1]_40
+nc8_0889                          0.00093  41_[+1]_24
+nc8_0683                          0.00093  25_[+1]_40
+nc8_2884                            0.001  26_[+1]_39
+nc8_1895                            0.001  45_[+1]_20
+nc8_1874                            0.001  38_[+1]_27
+nc8_0849                            0.001  24_[+1]_41
+nc8_0781                            0.001  21_[+1]_44
+nc8_1257                           0.0011  33_[+1]_32
+nc8_0108                           0.0011  25_[+1]_40
+nc8_0503                           0.0013  32_[+1]_33
+nc8_0969                           0.0014  22_[+1]_43
+nc8_0671                           0.0015  29_[+1]_36
+nc8_2880                           0.0018  53_[+1]_12
+nc8_2600                           0.0018  25_[+1]_40
+nc8_2575                           0.0018  37_[+1]_28
+nc8_1300                           0.0018  47_[+1]_18
+nc8_0842                           0.0024  19_[+1]_46
+nc8_0764                           0.0024  55_[+1]_10
+nc8_1427                           0.0026  48_[+1]_17
+nc8_1245                           0.0026  20_[+1]_45
+nc8_0767                           0.0028  29_[+1]_36
+nc8_3112                            0.003  30_[+1]_35
+nc8_2517                           0.0037  31_[+1]_34
+nc8_2171                           0.0051  29_[+1]_36
+nc8_2151                           0.0051  29_[+1]_36
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=35 seqs=129
+nc8_2918                 (   29) TTGCTATTACAACGGGCCTGCGCTATACTAACGAC  1 
+nc8_1574                 (   36) TTTGCATTCTAGCTAGATTGGGGTATGATAAATAC  1 
+nc8_1410                 (   27) TTCGAATTTTCAGACGATTCCGGTATAATAAACCG  1 
+nc8_0689                 (   31) TTGCGTCCCCGGGGCGCTTTTGTTACACTTAGGCC  1 
+nc8_2397                 (   34) TTTTCAAGGGCCCCACCGTCCGCTATAATTGGATT  1 
+nc8_2301                 (   24) TTGTATTCGGTTTTCATCTGTGCTAGAATAAGTCT  1 
+nc8_2146                 (   25) TAGGTTCCCAGACGCACCTTTGCTATAATGAAAAT  1 
+nc8_2241                 (   30) TTGGTTTTCGTTTGGGCTTCTGCTACACTATTAAC  1 
+nc8_2393                 (   34) TCTCATATTGACTGAAAATGTGCTAAAATATTAAT  1 
+nc8_2207                 (   26) TTGCAAACCTTCGCCGAATCCACTAGAATGAGAAG  1 
+nc8_1231                 (   28) TTGACGTTAGCGCCTAAAATCTCTAAAATGAACCC  1 
+nc8_0888                 (   35) TATCTGTTCCACCTGACTTGCGTTATAATAGTTAT  1 
+nc8_2149                 (   55) TTGCGAAGCCAAAGCGAAACTCCTATGATTACACT  1 
+nc8_1732                 (   34) TTGTGCTTGTGCCACTAACTTGGTATAATTGTAGG  1 
+nc8_0989                 (   22) TTGAAATTTCACTTATCACTTGCTATTATGAAAGG  1 
+nc8_2429                 (   38) TAGACATTACACCCCCTCAGCCTTAAAATTAACTT  1 
+nc8_1544                 (    1) TCGTAATTACACACTATATATTGTATAATACAAAT  1 
+nc8_1349                 (   27) TTGACATTCGATGATAACATTGCTAATATTAAGTC  1 
+nc8_1316                 (   19) TGGATTAGAACGTACGTTTGCGTTAAAATTGAGAG  1 
+nc8_2549                 (   23) TTTCCATTTACTTTTATTTATTGTACAATGACAAC  1 
+nc8_1917                 (   33) TTGAAAATCAGTCTGAAAACTGTCATAATATAGAA  1 
+nc8_1173                 (    2) TGGCGTTCAACTTTTACAAGTGGTATCATGATAAT  1 
+nc8_0088                 (    9) TCGCATTCCGGTCATGCTACCGGTAAAATCATTAT  1 
+nc8_2053                 (   38) CTGAAATTGCGTTAAATTTGAGCTATACTATTACT  1 
+nc8_0111                 (   26) TTAAATTCACCGCCGCGACCGGTTATAATAAAAAG  1 
+nc8_1767                 (   26) TTTGTGAATTCCTGAAAGTGTGTTAAAATACAATC  1 
+nc8_0183                 (    8) CTTCAAATTTGCGGAATGTGGTTTATAATTAAGGC  1 
+nc8_2056                 (   29) CTTGTTTCACTAGTAATATTTGGTATAATTGCAAA  1 
+nc8_1662                 (   41) TTGCCCAATCCGCCATACCGCAGTATGGTTAGGAC  1 
+nc8_2412                 (   34) CTTATTAATTCAGTAAAATTTGTTATAATCGAGAC  1 
+nc8_2299                 (   34) TTGACAGTTGTGGTGGAGTTCGTTACACTTAGTCC  1 
+nc8_1459                 (   21) TGGATTTGTCATTCAAGACGCGGTATATTAACAAT  1 
+nc8_1334                 (   35) TTTACAGCGTCATTGTTTTGTGGTGTACTTAAACT  1 
+nc8_2839                 (   23) TTGCATGTAACTGAAAATGCTGGTAAAGTAAGGAA  1 
+nc8_2252                 (   26) CTTACATTGCTGAAAATTAATGCTAAAATATAGTT  1 
+nc8_0951                 (   34) TTCCATGGCCGCCCAAATAAGCGTACAATGTAACA  1 
+nc8_0477                 (   28) TTGCGGGAACTACTAGAGCGTGCTACGATTATATT  1 
+nc8_2834                 (   34) TTTTACTTCTGATTTAATACTAGTATACTTATAAA  1 
+nc8_2491                 (   13) ACTCGCTAATGACTATTATTTGCTATAATTAAATT  1 
+nc8_2305                 (   22) TTGAAACTGTGCAAAATTAGGCCTATAATGTCAAA  1 
+nc8_0482                 (   27) GGGCGTCAATAAGCCCTTTGTGGTATACTTATCGC  1 
+nc8_0172                 (   14) TTTGCGTGATGAGTGGTATGTAGTATAATAACTAG  1 
+nc8_0135                 (   33) TTGAAATTCATGGGGTTGACGGTTAAAATGAATAA  1 
+nc8_0611                 (   29) ATTGTTTTTTTCACCACATGTTGTATACTAAATTT  1 
+nc8_1027                 (   25) GTGCAATTTCCGAACGTGACCATTAAAATGAAGAT  1 
+nc8_0645                 (   25) TTGATTTATCCATATTAGAGCGGTAGGATTAGTCG  1 
+nc8_0024                 (   15) CTGCGTTGTTCAGACGAGGTGCTTATAATAAAGGT  1 
+nc8_0887                 (   19) TTCAGTCGATTAATAGACTATGGTATAATTTTGTT  1 
+nc8_0096                 (    7) TTTTTTTGACGATAAAAACGGGGTGAAATAAATGG  1 
+nc8_0065                 (   24) ACGATTTGCCGCATCTTTCGTGTTAAAATTAGGTA  1 
+nc8_3128                 (   35) TTTTCAAACAAATAAAAATATGCTATAGTAGTCAG  1 
+nc8_2606                 (   50) TTCAAAATATGTCGATATTTGACTAAAATTAACAG  1 
+nc8_2505                 (   31) CTTGCTTTTGAAATTGAATCCGGCAAAATGAAATA  1 
+nc8_2354                 (   23) TTTCATCAAATACTAAATTATGATAAACTAAGTTC  1 
+nc8_2251                 (   29) TTGAATGTCCCTCTTCGACATGCTAATATTATTCT  1 
+nc8_0164                 (   20) TTGCGAAAGCGTTTGCACAGTTGCATAATAAATTA  1 
+nc8_2837                 (   45) TTGGCTTTACGGGTGATTACTTATAAAATGATATA  1 
+nc8_2770                 (   29) TTTTGAATGCAATCATAAGCGTGTATAATAAAAGT  1 
+nc8_0278                 (   33) TTGCATATGCAATCATTTGATGATAAACTTAGCAC  1 
+nc8_2528                 (   18) GTGAAAACAAATACAAAATCAGTTATAATAAGATT  1 
+nc8_2378                 (   26) TGGCATCGCTTTCAGTTTGGCCTTACAATTAAGCA  1 
+nc8_1319                 (   14) TTTTCACAAGTAACCTTTTTTGGTATAGTGGAAGA  1 
+nc8_0806                 (   22) GTCTATCAAAGTTACGATTGTGTTAAACTGAAAAG  1 
+nc8_0718                 (   29) TCTGTATTCAGACGTAAACATGTTAAAATGTAATT  1 
+nc8_0700                 (   35) TTGTCATTCGTTTTGCAATAGCCCATACTGCACAT  1 
+nc8_0608                 (   31) TTTACCAACCTTTACCGTTTATGTATAATTAAAGT  1 
+nc8_1728                 (   25) TTTTGCCGCGTATCCGGGTATGGTAAAATATGATT  1 
+nc8_1167                 (   31) TATGTGCTACCAAAGCACCGTGCTAAAATCAAATC  1 
+nc8_2281                 (   19) TTCCTCTCAACGTGATTACCGTTTATAATAAACAA  1 
+nc8_2003                 (   34) TTGAAATCAATTTCAAAAAAGACCATAATAAAGTT  1 
+nc8_0735                 (   26) TTGACTTTTATTAGATGTAACGGTAAAGTTAACTT  1 
+nc8_2366                 (   33) ATTGACTTTTACGTCAAATTTGGCACACTTAGTAT  1 
+nc8_0124                 (   34) TAGCGTTATTGAATCAAACCTGCTACATTATAGTT  1 
+nc8_2677                 (   11) TGCCATAATCATTCGCTCGGCCATATAATAAAATT  1 
+nc8_2064                 (   19) TTGTTGAATTCCTGGTTGCCTGTTATACTCTATTT  1 
+nc8_0325                 (   26) TAGTTAAATAGGTTATCGCGTGCTATGATGAGAAT  1 
+nc8_0313                 (   38) TTGATTATATCAATGGTTATCTCTATGATTTAGGG  1 
+nc8_0148                 (    6) TTTTATTTGTCACAAATATTTCATATAATCGGGTT  1 
+nc8_2735                 (   20) TTGCAAGTTGACTGTGAGTGGCTTACATTAAAAGT  1 
+nc8_2477                 (   34) TTGTTGTTAGGGTGGTTTTTCGATATAGTAGACCT  1 
+nc8_2199                 (   32) CAGTAATTACTTGTGAGTTATGGTATCCTAAAACG  1 
+nc8_0480                 (   33) TTGCACTCATCTCACTTCTGTTATAAGGTGAGAAT  1 
+nc8_2623                 (   31) CGGTTGTCCGATAGAAAAACTGCTATACTACGAGG  1 
+nc8_0617                 (   31) TTCAGGACGTTTAAACAATGGCTTATAATAAGTAA  1 
+nc8_0610                 (   28) TTGTATAAACAGGCTAAGATTGCGATAATAGAACA  1 
+nc8_0271                 (   30) CAGACAAACACGAACAGATGTTTTATAATAGGAAG  1 
+nc8_3027                 (   43) TTCAAAAGTATCAGTATATTCGGCATCATAATGAT  1 
+nc8_0827                 (   28) TTGTTCCAAAATTAAATTATGGTTATCATAAGCAT  1 
+nc8_0741                 (   30) CTTACAAACGCTAGTATCAGTGTTATTATCAATAA  1 
+nc8_3118                 (   33) CAGACAAGCTGAGTTGATTGGACTATAATGATTGG  1 
+nc8_1021                 (   20) TGGGCAAGGTCGATGAACTAGCGTATATTATAGAC  1 
+nc8_1959                 (   30) GGCGTCTGTGATTAGGACTATGCTACAATTAAAGC  1 
+nc8_2782                 (   21) TAGGAATGTCACGCTAAATCTGATAGAATCGGATT  1 
+nc8_2825                 (   34) GTTGATTTTATGAGGAAGTTCGTTATCATAAAGAA  1 
+nc8_0221                 (   24) CATAATTTTGTGGGAAAACATGCTATGATAGAACG  1 
+nc8_2498                 (    5) TGGGCAAGTTAATGGAAATGAGCTACTATATATAG  1 
+nc8_0294                 (   28) TTGTTTATAACTGTACTATACTGTACTATTTAACG  1 
+nc8_2737                 (   21) TTTACTAATTACAAGCTTTATTTTATCATATTGAT  1 
+nc8_2706                 (   26) TTACAAAACTGTTTTCATAAGCGTATAATGATTAG  1 
+nc8_1572                 (   31) TTGTTGTAAATTTATGTTTTAGTTAAAGTAAGAAT  1 
+nc8_0730                 (   34) TATTGCTTGATTAATATTTCTGTTAGAATTAGTAC  1 
+nc8_0680                 (   24) TCGACAAATGTAAATTTTGGGGGTATATTAAGCGT  1 
+nc8_2562                 (   31) GCGCTTCCCTCCCTATGTTAGAATATACTAAGAAC  1 
+nc8_1687                 (   26) GGCACTGACACCGGCTCTTATGTTAAACTTAATCA  1 
+nc8_0889                 (   42) TGCATGCAATCACCTCAATTTGATATGGTTAACAT  1 
+nc8_0683                 (   26) CTTTGTAAAGTGTGTCAATGTTGTATACTATTTTT  1 
+nc8_2884                 (   27) ATGACGATACGCAAAATTCGTGAGAAAATATAAAC  1 
+nc8_1895                 (   46) GTTCTATGTTCTGGTCATTGTCTTATATTACAATG  1 
+nc8_1874                 (   39) ACAACCCGCTGCAAAAATTATGGTAAAATGAATGC  1 
+nc8_0849                 (   25) TTGACAAGCAACAATATTCAAGATAAAATGTTGCT  1 
+nc8_0781                 (   22) ATCATTTCTTTAATAATCACTGCTAACCTAGAACT  1 
+nc8_1257                 (   34) TATTATTAAGGCACAAAAAGCAGTAAACTGTTTCT  1 
+nc8_0108                 (   26) TGGTTTCAATGCACTGCGAGCCGTATTATTCGAAA  1 
+nc8_0503                 (   33) ACCCACAGTTTCACAAATATTGGTATAGTAGAAGA  1 
+nc8_0969                 (   23) AGCAAAAATGAAAGCATTTGCGTTATAATACTTGT  1 
+nc8_0671                 (   30) AGTTTCACTTATTCATTTTTTGGTATAGTATGTAT  1 
+nc8_2880                 (   54) CGTTCTAATCTTCACGACTTTTTCACAATTTGTAC  1 
+nc8_2600                 (   26) AGCGCTTTATTGCCTTCGTTCGGTAATCTTAAATT  1 
+nc8_2575                 (   38) TGTAAATAGTAATATTTACGTTTTACAATTTTATT  1 
+nc8_1300                 (   48) TCTCGTTCGCTAAATGGGGGTGCCATTATGAAAAA  1 
+nc8_0842                 (   20) GTTGACGTAAGCATAAGATTGATTATAATTTAAAT  1 
+nc8_0764                 (   56) TGGGTTAACTAATTAGAGATGGGTGAGATTGATAT  1 
+nc8_1427                 (   49) TTGCGATTTTCTATGTAAACTATTGTTATTGAAAA  1 
+nc8_1245                 (   21) TGTTGTTACTGAAAGGTACCAATTATAATTGTTAT  1 
+nc8_0767                 (   30) CTGACAAGTTTATAATGTTGTGGTAGGTTAATTGC  1 
+nc8_3112                 (   31) TGTTTAAAACATGTAATAAATTACATGATTAAAAT  1 
+nc8_2517                 (   32) TGATTTTAACTGGATAATGGGGGTAAAGTAACGAA  1 
+nc8_2171                 (   30) TTTTTATTGGCTTTGAACTTGCCCGAGCTTAAGAA  1 
+nc8_2151                 (   30) TTTTTAGTATCATGTACTTGCCCCAGTATTGAGTA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 35 n= 9636 bayes= 7.54281 E= 5.8e-046 
+  -196    -28   -140    119 
+  -172    -82    -26    104 
+  -342    -28    130     13 
+    -3     77    -33    -29 
+    -3     72    -48    -16 
+    22    -28   -102     31 
+     0    -28   -140     57 
+   -21     -3    -20     31 
+    -3     72    -64     -9 
+   -72     85    -20     16 
+   -42     77     18    -25 
+   -10     58    -26     -9 
+   -21     42     -8      2 
+   -21     42      3     -5 
+    10     37      3    -38 
+    41    -19      8    -58 
+    44    -37   -114     13 
+     7    -19    -48     25 
+   -47      4   -155     77 
+   -72     37     83    -38 
+  -261     53     -8     77 
+  -172    -19    160   -109 
+  -172     85     74    -12 
+ -1366    -69   -372    151 
+   153  -1366   -240  -1366 
+   -25    -37   -192     82 
+   118   -147    -92   -187 
+   100     31   -114   -253 
+ -1366  -1366  -1366    168 
+    36   -147    -14      9 
+    84   -147    -40    -69 
+    64   -128     13    -69 
+    41    -47      3    -38 
+    46     12    -48    -43 
+   -72     31    -26     50 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 35 nsites= 129 E= 5.8e-046 
+ 0.085271  0.124031  0.077519  0.713178 
+ 0.100775  0.085271  0.170543  0.643411 
+ 0.031008  0.124031  0.503876  0.341085 
+ 0.325581  0.255814  0.162791  0.255814 
+ 0.325581  0.248062  0.147287  0.279070 
+ 0.387597  0.124031  0.100775  0.387597 
+ 0.333333  0.124031  0.077519  0.465116 
+ 0.286822  0.147287  0.178295  0.387597 
+ 0.325581  0.248062  0.131783  0.294574 
+ 0.201550  0.271318  0.178295  0.348837 
+ 0.248062  0.255814  0.232558  0.263566 
+ 0.310078  0.224806  0.170543  0.294574 
+ 0.286822  0.201550  0.193798  0.317829 
+ 0.286822  0.201550  0.209302  0.302326 
+ 0.356589  0.193798  0.209302  0.240310 
+ 0.441860  0.131783  0.217054  0.209302 
+ 0.449612  0.116279  0.093023  0.341085 
+ 0.348837  0.131783  0.147287  0.372093 
+ 0.240310  0.155039  0.069767  0.534884 
+ 0.201550  0.193798  0.364341  0.240310 
+ 0.054264  0.217054  0.193798  0.534884 
+ 0.100775  0.131783  0.620155  0.147287 
+ 0.100775  0.271318  0.341085  0.286822 
+ 0.000000  0.093023  0.015504  0.891473 
+ 0.961240  0.000000  0.038760  0.000000 
+ 0.279070  0.116279  0.054264  0.550388 
+ 0.751938  0.054264  0.108527  0.085271 
+ 0.666667  0.186047  0.093023  0.054264 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.426357  0.054264  0.186047  0.333333 
+ 0.596899  0.054264  0.155039  0.193798 
+ 0.519380  0.062016  0.224806  0.193798 
+ 0.441860  0.108527  0.209302  0.240310 
+ 0.457364  0.162791  0.147287  0.232558 
+ 0.201550  0.186047  0.170543  0.441860 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+TT[GT][ACT][ATC][AT][TA][TA][ATC][TCA][TCAG][ATC][TAC][TAGC][ATG][AGT][AT][TA][TA][GTA][TC]G[GTC]TA[TA]AAT[AT]A[AG][ATG][AT][TA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  5.50 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+nc8_0024                         3.72e-03  14_[+1(5.65e-05)]_51
+nc8_0065                         4.75e-03  23_[+1(7.21e-05)]_42
+nc8_0088                         9.96e-04  8_[+1(1.51e-05)]_57
+nc8_0096                         4.75e-03  6_[+1(7.21e-05)]_59
+nc8_0108                         7.04e-02  100
+nc8_0111                         1.15e-03  25_[+1(1.74e-05)]_40
+nc8_0124                         1.06e-02  100
+nc8_0135                         2.90e-03  32_[+1(4.40e-05)]_33
+nc8_0148                         1.18e-02  100
+nc8_0164                         5.35e-03  19_[+1(8.13e-05)]_46
+nc8_0172                         2.90e-03  13_[+1(4.40e-05)]_52
+nc8_0183                         1.32e-03  7_[+1(1.99e-05)]_58
+nc8_0217                         4.73e-01  100
+nc8_0221                         3.22e-02  100
+nc8_0271                         1.62e-02  100
+nc8_0278                         6.02e-03  32_[+1(9.14e-05)]_33
+nc8_0294                         3.53e-02  100
+nc8_0313                         1.18e-02  100
+nc8_0325                         1.18e-02  100
+nc8_0418                         4.73e-01  100
+nc8_0435                         3.68e-01  100
+nc8_0448                         6.16e-01  100
+nc8_0477                         2.55e-03  27_[+1(3.87e-05)]_38
+nc8_0480                         1.46e-02  100
+nc8_0482                         2.90e-03  26_[+1(4.40e-05)]_39
+nc8_0499                         8.23e-01  100
+nc8_0503                         8.26e-02  100
+nc8_0570                         8.55e-01  100
+nc8_0608                         7.58e-03  100
+nc8_0610                         1.62e-02  100
+nc8_0611                         3.29e-03  28_[+1(4.99e-05)]_37
+nc8_0617                         1.62e-02  100
+nc8_0645                         3.72e-03  24_[+1(5.65e-05)]_41
+nc8_0671                         9.64e-02  100
+nc8_0680                         5.04e-02  100
+nc8_0683                         5.97e-02  100
+nc8_0689                         3.85e-05  30_[+1(5.84e-07)]_35
+nc8_0700                         6.76e-03  100
+nc8_0718                         6.76e-03  100
+nc8_0730                         4.23e-02  100
+nc8_0735                         9.48e-03  100
+nc8_0741                         1.79e-02  100
+nc8_0764                         1.48e-01  100
+nc8_0767                         1.69e-01  100
+nc8_0781                         6.49e-02  100
+nc8_0806                         6.76e-03  100
+nc8_0827                         1.79e-02  100
+nc8_0842                         1.48e-01  100
+nc8_0849                         6.49e-02  100
+nc8_0887                         4.75e-03  18_[+1(7.21e-05)]_47
+nc8_0888                         4.12e-04  34_[+1(6.25e-06)]_31
+nc8_0889                         5.97e-02  100
+nc8_0951                         2.55e-03  33_[+1(3.87e-05)]_32
+nc8_0969                         8.93e-02  100
+nc8_0989                         5.58e-04  21_[+1(8.45e-06)]_44
+nc8_1021                         1.98e-02  100
+nc8_1027                         3.72e-03  24_[+1(5.65e-05)]_41
+nc8_1167                         8.48e-03  100
+nc8_1173                         8.64e-04  1_[+1(1.31e-05)]_64
+nc8_1231                         4.12e-04  27_[+1(6.25e-06)]_38
+nc8_1245                         1.58e-01  100
+nc8_1257                         7.04e-02  100
+nc8_1300                         1.12e-01  100
+nc8_1316                         7.48e-04  18_[+1(1.13e-05)]_47
+nc8_1319                         6.76e-03  100
+nc8_1334                         1.97e-03  34_[+1(2.99e-05)]_31
+nc8_1349                         7.48e-04  26_[+1(1.13e-05)]_39
+nc8_1410                         7.85e-06  26_[+1(1.19e-07)]_39
+nc8_1427                         1.58e-01  100
+nc8_1459                         1.72e-03  20_[+1(2.61e-05)]_45
+nc8_1487                         9.37e-01  100
+nc8_1502                         3.85e-01  100
+nc8_1544                         7.48e-04  [+1(1.13e-05)]_65
+nc8_1572                         4.23e-02  100
+nc8_1574                         7.85e-06  35_[+1(1.19e-07)]_30
+nc8_1642                         5.63e-01  100
+nc8_1662                         1.51e-03  40_[+1(2.29e-05)]_25
+nc8_1687                         5.97e-02  100
+nc8_1728                         8.48e-03  100
+nc8_1732                         5.58e-04  33_[+1(8.45e-06)]_32
+nc8_1767                         1.32e-03  25_[+1(1.99e-05)]_40
+nc8_1777                         5.27e-01  100
+nc8_1860                         6.16e-01  100
+nc8_1874                         6.49e-02  100
+nc8_1895                         6.49e-02  100
+nc8_1917                         8.64e-04  32_[+1(1.31e-05)]_33
+nc8_1959                         2.42e-02  100
+nc8_2003                         9.48e-03  100
+nc8_2053                         1.15e-03  37_[+1(1.74e-05)]_28
+nc8_2056                         1.51e-03  28_[+1(2.29e-05)]_37
+nc8_2064                         1.18e-02  100
+nc8_2146                         9.49e-05  24_[+1(1.44e-06)]_41
+nc8_2149                         4.80e-04  54_[+1(7.28e-06)]_11
+nc8_2151                         2.87e-01  100
+nc8_2171                         2.87e-01  100
+nc8_2199                         1.46e-02  100
+nc8_2207                         1.58e-04  25_[+1(2.40e-06)]_40
+nc8_2241                         1.13e-04  29_[+1(1.71e-06)]_36
+nc8_2251                         5.35e-03  28_[+1(8.13e-05)]_37
+nc8_2252                         2.24e-03  25_[+1(3.40e-05)]_40
+nc8_2281                         9.48e-03  100
+nc8_2299                         1.72e-03  33_[+1(2.61e-05)]_32
+nc8_2301                         9.49e-05  23_[+1(1.44e-06)]_42
+nc8_2305                         2.90e-03  21_[+1(4.40e-05)]_44
+nc8_2354                         5.35e-03  22_[+1(8.13e-05)]_43
+nc8_2358                         8.74e-01  100
+nc8_2366                         1.06e-02  100
+nc8_2378                         6.76e-03  100
+nc8_2393                         1.58e-04  33_[+1(2.40e-06)]_32
+nc8_2397                         5.57e-05  33_[+1(8.44e-07)]_32
+nc8_2412                         1.72e-03  33_[+1(2.61e-05)]_32
+nc8_2429                         7.48e-04  37_[+1(1.13e-05)]_28
+nc8_2477                         1.46e-02  100
+nc8_2491                         2.90e-03  12_[+1(4.40e-05)]_53
+nc8_2498                         3.53e-02  100
+nc8_2505                         5.35e-03  30_[+1(8.13e-05)]_35
+nc8_2517                         2.17e-01  100
+nc8_2528                         6.76e-03  100
+nc8_2549                         8.64e-04  22_[+1(1.31e-05)]_43
+nc8_2562                         5.49e-02  100
+nc8_2575                         1.12e-01  100
+nc8_2600                         1.12e-01  100
+nc8_2606                         5.35e-03  49_[+1(8.13e-05)]_16
+nc8_2623                         1.62e-02  100
+nc8_2636                         5.45e-01  100
+nc8_2677                         1.18e-02  100
+nc8_2706                         4.23e-02  100
+nc8_2735                         1.31e-02  100
+nc8_2737                         4.23e-02  100
+nc8_2751                         8.74e-01  100
+nc8_2755                         4.37e-01  100
+nc8_2770                         6.02e-03  28_[+1(9.14e-05)]_37
+nc8_2782                         2.66e-02  100
+nc8_2789                         6.67e-01  100
+nc8_2825                         3.22e-02  100
+nc8_2834                         2.90e-03  33_[+1(4.40e-05)]_32
+nc8_2837                         6.02e-03  44_[+1(9.14e-05)]_21
+nc8_2839                         2.24e-03  22_[+1(3.40e-05)]_43
+nc8_2880                         1.12e-01  100
+nc8_2884                         6.49e-02  100
+nc8_2891                         6.84e-01  100
+nc8_2918                         2.61e-06  28_[+1(3.95e-08)]_37
+nc8_3027                         1.79e-02  100
+nc8_3112                         1.80e-01  100
+nc8_3118                         1.98e-02  100
+nc8_3128                         5.35e-03  34_[+1(8.13e-05)]_31
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 1 reached.
+********************************************************************************
+
+CPU: hlo-ws131316
+
+********************************************************************************
