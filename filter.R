@@ -13,7 +13,7 @@ func1 <- function(file, output, vec){
   annotation <- getAnnot(file)
   vec2 <- c()
   vec3 <- c()
-  sink(paste(output, ".fa", sep="")) 
+  sink(paste(output, ".fa", sep=""))
   for(j in 1:length(vec)){
   	index <- grep(vec[j], annotation, ignore.case=T)
   	pirna <- file[index]
@@ -31,7 +31,7 @@ func2 <- function(file, output, vec, df){
   annotation <- getAnnot(file)
   vec2 <- c()
   vec3 <- c()
-  sink(paste(output, ".fa", sep="")) 
+  sink(past(output, ".fa", sep="")) 
   for(j in 1:length(vec)){
     nc_index<- grep(vec[j], df[,1])
     nc <- as.character(df[nc_index,2])
@@ -50,12 +50,17 @@ func2 <- function(file, output, vec, df){
 }
 
 for(i in 3:length(conf_file)){
-  input <- read.table(as.character(conf_file$V1[i]))
-  if(grep1("NC8", input)){
+  input <- read.fasta(file = as.character(conf_file$V1[i]))
+  print(conf_file$V1[i])
+  print(conf_file$V1[i][1])
+  filter_file = sub(".fa", "\\1", conf_file$V1[i][1])
+  print(filter_file)
+  if(grepl("NC8", conf_file$V1[i]) == T){
     func2(input, paste(input, i), vec, df)
   }else{
     func1(input, paste(input, i), vec)
   }
+}
 
 #WC_file1 <- read.fasta(file = as.character(conf_file$V1[2]))
 #func1(WC_file1, "WC_output1", vec)
