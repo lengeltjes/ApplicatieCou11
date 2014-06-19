@@ -1,6 +1,6 @@
 LP_DEG_glc.txt
+LP_genes2.txt
 WCFS1_glc_1_tss.fa
 WCFS1_glc_2_tss.fa
 NC8_glc_1_tss.fa
 NC8_glc_2_tss.fa
-LP_genes2.txt

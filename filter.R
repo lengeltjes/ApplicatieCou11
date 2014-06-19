@@ -1,7 +1,7 @@
 library("seqinr")
 
 conf_file <- read.table("conf.txt")
-ortho_file <- read.table(as.character(conf_file$V1[6]), header=TRUE)
+ortho_file <- read.table(as.character(conf_file$V1[2]), header=TRUE)
 vec <- read.table("vec.txt")
 vec <- lapply(vec, as.character)$V1
 WC_id <- substr(as.character(ortho_file$WCFS1), 11, 17)
@@ -49,11 +49,19 @@ func2 <- function(file, output, vec, df){
   sink()
 }
 
-WC_file1 <- read.fasta(file = as.character(conf_file$V1[2]))
-func1(WC_file1, "WC_output1", vec)
-WC_file2 <- read.fasta(file = as.character(conf_file$V1[3]))
-func1(WC_file2, "WC_output2", vec)
-NC_file1 <- read.fasta(file = as.character(conf_file$V1[4]))
-func2(NC_file1, "NC_output1", vec, df)
-NC_file2 <- read.fasta(file = as.character(conf_file$V1[5]))
-func2(NC_file2, "NC_output2", vec, df)
+for(i in 3:length(conf_file)){
+  input <- read.table(as.character(conf_file$V1[i]))
+  if(grep1("NC8", input)){
+    func2(input, paste(input, i), vec, df)
+  }else{
+    func1(input, paste(input, i), vec)
+  }
+
+#WC_file1 <- read.fasta(file = as.character(conf_file$V1[2]))
+#func1(WC_file1, "WC_output1", vec)
+#WC_file2 <- read.fasta(file = as.character(conf_file$V1[3]))
+#func1(WC_file2, "WC_output2", vec)
+#NC_file1 <- read.fasta(file = as.character(conf_file$V1[4]))
+#func2(NC_file1, "NC_output1", vec, df)
+#NC_file2 <- read.fasta(file = as.character(conf_file$V1[5]))
+#func2(NC_file2, "NC_output2", vec, df)
