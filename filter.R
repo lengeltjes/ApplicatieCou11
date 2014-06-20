@@ -49,24 +49,11 @@ func2 <- function(file, output, vec, df){
   sink()
 }
 
-for(i in 3:length(conf_file)){
-  input <- read.fasta(file = as.character(conf_file$V1[i]))
-  print(conf_file$V1[i])
-  print(conf_file$V1[i][1])
-  filter_file = sub(".fa", "\\1", conf_file$V1[i][1])
-  print(filter_file)
-  if(grepl("NC8", conf_file$V1[i]) == T){
-    func2(input, paste(input, i), vec, df)
-  }else{
-    func1(input, paste(input, i), vec)
-  }
-}
-
-#WC_file1 <- read.fasta(file = as.character(conf_file$V1[2]))
-#func1(WC_file1, "WC_output1", vec)
-#WC_file2 <- read.fasta(file = as.character(conf_file$V1[3]))
-#func1(WC_file2, "WC_output2", vec)
-#NC_file1 <- read.fasta(file = as.character(conf_file$V1[4]))
-#func2(NC_file1, "NC_output1", vec, df)
-#NC_file2 <- read.fasta(file = as.character(conf_file$V1[5]))
-#func2(NC_file2, "NC_output2", vec, df)
+WC_file1 <- read.fasta(file = as.character(conf_file$V1[3]))
+func1(WC_file1, "WC_output1", vec)
+WC_file2 <- read.fasta(file = as.character(conf_file$V1[4]))
+func1(WC_file2, "WC_output2", vec)
+NC_file1 <- read.fasta(file = as.character(conf_file$V1[5]))
+func2(NC_file1, "NC_output1", vec, df)
+NC_file2 <- read.fasta(file = as.character(conf_file$V1[6]))
+func2(NC_file2, "NC_output2", vec, df)
