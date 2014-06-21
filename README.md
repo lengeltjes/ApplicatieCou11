@@ -13,8 +13,7 @@ Vereisten om de applicatie te kunnen draaien:
 * MEME is geïnstalleerd in /sharing/students/meme_4.9.1/
 
 Instructies:
-1. Inloggen op cytosine.nl (leonoor, blaat1234)
-2. Ga naar de map ApplicatieCou11
-3. Run het volgende command: Rscript superscript.R
-4. De plotjes die door R gegenereerd worden verschijnen in ApplicatieCou11
-5. De MEME output staat in de mapjes die verschijnen in ApplicatieCou11
+1. Clone de repository
+2. Run het volgende command: Rscript superscript.R
+3. De plotjes die door R gegenereerd worden verschijnen in ApplicatieCou11
+4. De MEME output staat in de mapjes die verschijnen in ApplicatieCou11
